@@ -1,0 +1,35 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/SMS_Soldier_IDLE_NORTH_strip4.png-fc32b3a4fc39dd392b71d12ddf7522ec.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://SMS RPG Soldier FREE Files/SMS RPG Soldier FREE Files/IDLE/SMS_Soldier_IDLE_NORTH_strip4.png"
+dest_files=[ "res://.import/SMS_Soldier_IDLE_NORTH_strip4.png-fc32b3a4fc39dd392b71d12ddf7522ec.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
