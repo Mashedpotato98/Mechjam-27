@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Arm.gd" type="Script" id=1]
+[ext_resource path="res://arm.png" type="Texture" id=2]
+
+[node name="Arm" type="Node2D"]
+position = Vector2( 96, 43 )
+rotation = 1.5708
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -17.8273, 0.0147095 )
+rotation = -1.5708
+scale = Vector2( 1, 0.985714 )
+texture = ExtResource( 2 )
+
+[node name="Position2D" type="Position2D" parent="."]
+position = Vector2( 1, 0 )

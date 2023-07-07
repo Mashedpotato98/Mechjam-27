@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Label.gd" type="Script" id=1]
+[ext_resource path="res://ken_fonts/kenpixel.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[node name="Label" type="Label"]
+margin_right = 40.0
+margin_bottom = 14.0
+rect_pivot_offset = Vector2( -82, 79 )
+custom_fonts/font = SubResource( 1 )
+script = ExtResource( 1 )

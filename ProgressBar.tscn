@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://ProgressBar.gd" type="Script" id=1]
+[ext_resource path="res://ken_fonts/kenpixel.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[node name="ProgressBar" type="ProgressBar"]
+margin_right = 4.0
+margin_bottom = 14.0
+custom_fonts/font = SubResource( 1 )
+max_value = 5.0
+percent_visible = false
+script = ExtResource( 1 )
